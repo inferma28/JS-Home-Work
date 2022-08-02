@@ -1,0 +1,89 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Itim", cursive;
+}
+body {
+    background-color: #8b91a5;
+}
+.form {
+    margin: 0 auto;
+    width: 400px;
+    background: #45a129;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(207, 64, 20, 0.438);
+}
+.input {
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(161, 161, 161);
+    font-size: 15px;
+    background-color: #fafafa;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.item {
+    padding: 20px;
+    background: #040507;   
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(5, 60, 7, 0.438);
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.visible {
+    opacity: 1;
+}
+.img {
+    width: 250px ;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.login {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.login::first-letter{
+    text-transform: uppercase;
+}
+.descr {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.btn, .clear, .remove, .profile {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    background-color:#3e4e70cd;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius:10px;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 10px;   
+}
